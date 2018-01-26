@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>WSN</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"  charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css"  charset="utf-8"/>
+		<script src="js/jquery2.0.0.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+		
+		<link rel="stylesheet" type="text/css" href="css/result.css" charset="utf-8"/>
+	</head>
+	<body>
+	    <div class="container">
+		    <div class="input-group">
+                <span class="input-group-addon">查询数值类型</span>
+                <select id="value_type" class="form-control">
+                    <option>全部</option>
+                    <option>温度</option>
+                    <option>湿度</option>
+                    <option>亮度</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">查询节点</span>
+                <select id="node_number" class="form-control">
+                    <option>全部</option>
+                    <option>节点1</option>
+                    <option>节点2</option>
+                </select>
+            </div>
+			<input id="search" type="button" class="button" onclick="update()" value="搜索"></input>
+		</div>
+		<div class="container" style="text-align:center; margin-left:auto; margin-right:auto;">
+			<canvas id="myCanvas" width="1000" height="500" >  </canvas>
+		</div>
+		<script src="js/result.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

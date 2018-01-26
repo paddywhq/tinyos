@@ -1,0 +1,28 @@
+.mycontainer
+{
+    position:absolute;
+    top:50px;
+    height:auto;
+    left:0px;
+    right:0px;
+}
+
+.research
+{
+    position:absolute;
+    height:auto;
+    left:0px;
+    right:0px;
+}
+
+.mytest
+{
+    position:absolute;
+}
+.content
+{
+    position:absolute;
+    left:0px;
+    right:0px;
+    
+}
